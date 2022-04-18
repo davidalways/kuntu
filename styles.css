@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+header {
+    text-align: center;
+    height: 200px;
+    background-image: url(./images//lar.jpg);
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid whitesmoke;
+    border-radius: 20%;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    column-gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 30px;
+}
+
+.items a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.items {
+    font-size: 1.2rem;
+}
+
+.items:hover {
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+    border-right: 0;
+    border-left: 0;
+    padding: 10px;
+}
+
+.img img {
+    border: 5px solid yellow;
+    border-radius: 50%;
+}
+
+.old {
+    color: yellow;
+}
+
+.head {
+    text-align: center;
+}
+
+.head h1 {
+    font-family: serif;
+}
+
+.season {
+    text-align: center;
+}
+
+.grid {
+    background-image: url(./images/nic.jpg);
+}
+
+.grid h1 {
+    color: white;
+    border: 2px solid whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    margin-bottom: 50px;
+}
+
+.grid h1:hover {
+    color: pink;
+}
+
+.grid p {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.grid p:hover {
+    color: yellow;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    text-align: center;
+
+}
+
+.stats {
+    text-align: center;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+figure img {
+    border: 4px solid whitesmoke;
+    border-radius: 50%;
+}
+
+figure img:hover {
+    border-color: pink;
+}
+
+figure p:hover {
+    color: pink;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {}
